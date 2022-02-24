@@ -1,0 +1,87 @@
+[
+  {
+    "match_date": "2022-02-24",
+    "match_time": "00:00",
+    "match_status": "Finished",
+    "home": "Botafogo RJ",
+    "away": "Flamengo RJ",
+    "odd_type_to_prob": {
+      "ah+2.5_1": 81,
+      "ah+3.5_1": 83,
+      "w2": 94,
+      "u+4.5": 96,
+      "u+5.5": 99,
+      "odd_x2": 81
+    }
+  },
+  {
+    "match_date": "2022-02-24",
+    "match_time": "19:30",
+    "match_status": "",
+    "home": "Bangu",
+    "away": "Audax RJ",
+    "odd_type_to_prob": {
+      "u+3.5": 88,
+      "u+4.5": 87,
+      "u+5.5": 93,
+      "ah-1.5_2": 86,
+      "ah-2.5_2": 87
+    }
+  },
+  {
+    "match_date": "2022-02-24",
+    "match_time": "02:00",
+    "match_status": "Finished",
+    "home": "Deportes Tolima",
+    "away": "Dep. Cali",
+    "odd_type_to_prob": {
+      "ah+1.5_1": 92,
+      "u+3.5": 89,
+      "u+4.5": 96,
+      "ah-1.5_2": 82,
+      "ah-2.5_2": 92
+    }
+  },
+  {
+    "match_date": "2022-02-24",
+    "match_time": "16:30",
+    "match_status": "",
+    "home": "National Bank Egypt",
+    "away": "Pyramids",
+    "odd_type_to_prob": {
+      "ah+2.5_1": 81,
+      "u+4.5": 96,
+      "u+5.5": 84,
+      "odd_x2": 86
+    }
+  },
+  {
+    "match_date": "2022-02-24",
+    "match_time": "20:45",
+    "match_status": "",
+    "home": "Arsenal",
+    "away": "Wolves",
+    "odd_type_to_prob": {
+      "ah+1.5_1": 84,
+      "u+3.5": 84,
+      "u+4.5": 97,
+      "u+5.5": 99,
+      "ah-2.5_2": 91,
+      "ah-3.5_2": 88
+    }
+  },
+  {
+    "match_date": "2022-02-24",
+    "match_time": "18:45",
+    "match_status": "",
+    "home": "Qarabag",
+    "away": "Marseille",
+    "odd_type_to_prob": {
+      "o+1.5": 83,
+      "u+4.5": 92,
+      "u+5.5": 88,
+      "ah-1.5_2": 94,
+      "odd_x2": 82
+    }
+  }
+]
