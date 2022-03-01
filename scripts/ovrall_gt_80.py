@@ -1,9 +1,10 @@
 # Python3 script to get all odds greater than 80%
 
-import json
+import json, os
 
 def ovrall_gt_80(data):
     ovrall_gt_80 = []
+    dest_dir = os.path.join(os.getcwd(), 'api/ovrall_gt_80.json')
     for category_idx in data["games"]:
         for match in category_idx["matches"]:
             match_date = match["match_date"]
@@ -33,4 +34,4 @@ def ovrall_gt_80(data):
                         prev_home_name = home
     
     ovrall_gt_80.sort(key=lambda x: x['match_time'])
-    json.dump(ovrall_gt_80, open("./api/ovrall_gt_80.json", "w"))
+    json.dump(ovrall_gt_80, open(dest_dir, "w"))

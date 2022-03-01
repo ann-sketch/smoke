@@ -1,9 +1,10 @@
 # Python3 script to generate odds for homescreen
 
-import json
+import json, os
 
 def home(data):
     return_json = []
+    dest_dir = os.path.join(os.getcwd(), 'api/home.json')
 
     for category_idx in data["games"]:
         for match in category_idx["matches"]:
@@ -47,5 +48,5 @@ def home(data):
 
     return_json.sort(key=lambda x: x['match_time'])
 
-    json.dump(return_json, open("./api/home.json", "w"))
+    json.dump(return_json, open(dest_dir, "w"))
 
