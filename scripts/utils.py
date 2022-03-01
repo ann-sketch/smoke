@@ -3,5 +3,5 @@ def prepare_values(data):
     for category_idx in data["games"]:
         for match in category_idx["matches"]:
             prob = match["prob"]
-            for key in prob: prob[key] = prob[key].strip(".00%")
+            for key in prob: prob[key] = prob[key].replace(".00%", "")
     return data
