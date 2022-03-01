@@ -31,5 +31,6 @@ def ovrall_gt_80(data):
                             'odd_type_to_prob': {key:prob[key]}
                             })
                         prev_home_name = home
-
+    
+    ovrall_gt_80.sort(key=lambda x: x['match_time'])
     json.dump(ovrall_gt_80, open("./api/ovrall_gt_80.json", "w"))
